@@ -5,7 +5,8 @@
   "main": "server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server"
+    "start": "nodemon server",
+    "build": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,19 @@
   },
   "homepage": "https://github.com/Andrew-Vance/socket-chat#readme",
   "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
     "express": "^4.17.1",
+    "lodash": "^4.17.20",
     "nodemon": "^2.0.7",
-    "socket.io": "^3.0.5"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "socket.io": "^3.0.5",
+    "webpack": "^5.12.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.3.1"
   }
 }
