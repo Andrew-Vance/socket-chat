@@ -1,0 +1,19 @@
+{
+  "name": "socket-chat",
+  "version": "1.0.0",
+  "description": "a simple socket chat",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrew-Vance/socket-chat.git"
+  },
+  "author": "Andrew Vance",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrew-Vance/socket-chat/issues"
+  },
+  "homepage": "https://github.com/Andrew-Vance/socket-chat#readme"
+}
