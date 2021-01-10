@@ -1,0 +1,32 @@
+#app {
+  margin: auto;
+  width: 80%;
+}
+
+#input {
+  width: 90%;
+  height: 30px;
+}
+
+#submit {
+  width: 10%;
+  height: 30px;
+}
+
+#chat {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.message {
+  width: 100%;
+  background-color: rgb(241, 231, 214);
+  border-radius: 10px;
+  border-color: azure;
+  padding: 5px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
