@@ -11,8 +11,8 @@ const SendMessage = (props) => {
 
   return (
     <div>
-      <input onChange={(e) => {updateMessageText(e.target.value)}} value={messageText}/>
-      <button onClick={handleSend}>Send</button>
+      <input id='input' onChange={(e) => {updateMessageText(e.target.value)}} value={messageText}/>
+      <button id='submit' onClick={handleSend}>Send</button>
     </div>
   );
 };
