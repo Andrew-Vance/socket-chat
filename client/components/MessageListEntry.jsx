@@ -3,7 +3,7 @@ import React from 'react';
 const MessageListEntry = (props) => {
 
   return (
-    <div>{props.message}</div>
+    <div className='message'>{props.message}</div>
   );
 };
 
