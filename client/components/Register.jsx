@@ -11,7 +11,6 @@ const Register = () => {
       username, password
     })
     .then(response => {
-      console.log(repsonse);
       updateUsername('');
       updatePassword('');
     })
